@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "ShikiButton",
+    "version": "1.0",
+    "description": "Добавляет кастомную кнопку на shikimori.",
+    "content_scripts": [
+        {
+            "matches": ["https://shikimori.io/animes/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
